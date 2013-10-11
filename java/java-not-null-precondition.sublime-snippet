@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-Preconditions.checkNotNull($1{obj});
+Preconditions.checkNotNull(${1:obj});
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>notn</tabTrigger>
