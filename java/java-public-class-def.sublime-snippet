@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+public class ${TM_FILENAME/.java$//g} {
+  private final static Logger log = LoggerFactory.getLogger(${TM_FILENAME/.java$//g}.class);
+
+  $1
+
+  public ${TM_FILENAME/.java$//g}($2) {
+    $3
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>puc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.java</scope>
+</snippet>
