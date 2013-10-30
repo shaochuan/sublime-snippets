@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 public class ${TM_FILENAME/.java$//g} {
-  private final static Logger log = LoggerFactory.getLogger(${TM_FILENAME/.java$//g}.class);
+  private static final Logger log = LoggerFactory.getLogger(${TM_FILENAME/.java$//g}.class);
 
   $1
 
